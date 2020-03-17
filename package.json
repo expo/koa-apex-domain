@@ -5,7 +5,7 @@
   "main": "build/apexDomain.js",
   "scripts": {
     "prepare": "tsc",
-    "prepublish": "rm -rf build",
+    "prepublishOnly": "rm -rf build",
     "test": "jest"
   },
   "repository": {
