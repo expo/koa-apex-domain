@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/expo/koa-apex-domain#readme",
   "devDependencies": {
+    "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-typescript": "^7.8.3",
     "@types/koa": "^2.11.2",
