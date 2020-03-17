@@ -1,3 +1,5 @@
 module.exports = {
-  rootDir: 'src'
+  coverageProvider: 'v8',
+  rootDir: 'src',
+  testEnvironment: 'node',
 };

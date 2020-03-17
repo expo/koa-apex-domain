@@ -17,6 +17,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn
-    - run: yarn test
+    - run: yarn test --coverage
       env:
         CI: true
