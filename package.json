@@ -1,11 +1,10 @@
 {
   "name": "@expo/koa-apex-domain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Koa middleware that redirects requests to `www.${domain}` to `${domain}`",
   "main": "build/apexDomain.js",
   "scripts": {
-    "prepare": "tsc",
-    "prepublishOnly": "rm -rf build",
+    "prepare": "rm -rf build && tsc",
     "prettier": "prettier --write 'src/**/*.ts'",
     "test": "jest"
   },
