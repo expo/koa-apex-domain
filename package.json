@@ -6,6 +6,7 @@
   "scripts": {
     "prepare": "tsc",
     "prepublishOnly": "rm -rf build",
+    "prettier": "prettier --write 'src/**/*.ts'",
     "test": "jest"
   },
   "repository": {
@@ -22,14 +23,14 @@
   },
   "homepage": "https://github.com/expo/koa-apex-domain#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-typescript": "^7.8.3",
-    "@types/koa": "^2.11.2",
-    "@types/node": "^13.9.1",
-    "jest": "^25.1.0",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/koa": "^2.11.3",
+    "@types/node": "^13.13.2",
+    "jest": "^25.4.0",
     "koa": "^2.11.0",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.5",
     "typescript": "^3.8.3"
   }
 }
