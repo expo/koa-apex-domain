@@ -9,7 +9,8 @@
     "outDir": "./build",
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "types": ["jest"]
   },
   "exclude": ["**/__tests__/*.ts"]
 }
